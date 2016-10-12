@@ -1,0 +1,19 @@
+{
+    "id": "nodebb-plugin-config-api",
+    "name": "Config API",
+    "description": "Read select parts of the NodeBB config via API",
+    "url": "https://github.com/myvr/nodebb-plugin-config-api",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "static:app.load",
+            "method": "init"
+        },
+        {
+            "hook": "filter:admin.header.build",
+            "method": "addAdminNavigation"
+        }
+    ],
+    "templates": "static/templates",
+    "compatibility": "^1.1.2"
+}

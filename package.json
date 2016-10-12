@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-config-api",
+  "version": "1.0.0",
+  "description": "Read select parts of the NodeBB config via API",
+  "main": "library.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/myvr/nodebb-plugin-config-api"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "api",
+    "config",
+    "endpoint",
+    "version"
+  ],
+  "author": "Danny Eiden",
+  "license": "ASL 2.0",
+  "nbbpm": {
+      "compatibility": "^1.1.2"
+  }
+}
