@@ -43,12 +43,6 @@
         $('#save').click(function() {
             Settings.persist('configApi', wrapper, function() {
                 socket.emit('admin.settings.syncConfigApi');
-                app.alert({
-                    type: 'success',
-                    alert_id: 'config-api-saved',
-                    title: 'Settings Saved',
-                    message: 'Your settings for the Config API plugin have been saved.',
-                });
             });
         });
 
