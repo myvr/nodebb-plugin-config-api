@@ -1,0 +1,1 @@
+# nodebb-plugin-config-api
