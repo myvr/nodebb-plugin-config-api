@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-config-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read select parts of the NodeBB config via API",
   "main": "library.js",
   "repository": {

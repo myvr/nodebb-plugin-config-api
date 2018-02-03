@@ -12,6 +12,8 @@ Read select parts of the NodeBB config via API
 This widget has been tested on
 * NodeBB 1.1.2
 * NodeBB 1.2.1
+* NodeBB 1.4.5
+* NodeBB 1.7.4
 
 ## Features
 * Select which config values you want to be returned
